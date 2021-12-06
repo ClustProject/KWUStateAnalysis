@@ -47,7 +47,7 @@ plot(significant,err_mcrde_chf(significant)+avg_mcrde_chf(significant)+0.7,'*k')
 legend('CHF patients','AF patients','HEALHTY group', 'Location', 'southwest')
 
 %% Statistical Analysis of Sample Entropy
-%Wilcox
+% Wilcox
 for i=1:scale
     pAF_CHF(i)  = ranksum(mseAF(:,i), mseCHF(:,i)); 
     pCHF_HT(i) = ranksum(mseCHF(:,i), mseHEALTHY(:,i));   
@@ -69,7 +69,7 @@ hold on
 plot(significant,err_mse_chf(significant)+avg_mse_chf(significant)+0.9,'*k')
 legend('CHF patients','AF patients','HEALHTY group', 'Location', 'northeast')
 
-% % Statistical Analysis of Permutation Entropy
+%% Statistical Analysis of Sample Entropy
 % % Wilcox
 % for i=1:scale
 %     pAF_CHF(i)  = ranksum(mpeAF(:,i), mpeCHF(:,i)); 
