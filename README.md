@@ -126,7 +126,8 @@
 	
 - **MCRDE 결과 그래프**
 
-![MCRDE_plot](E:\Project\파편화 과제(2021-2023)\2차년도\공유 코드\MCRDE\MCRDE_plot.png)
+![MCRDE_plot](https://user-images.githubusercontent.com/51149957/155083185-aadf5b15-3709-44d8-81bb-5e69292f4dd2.jpg)
+
 
 	* 데이터의 길이(N): 1000
 	* x 축: Scale factor 
