@@ -123,7 +123,8 @@
 - **MCRDE 결과 그래프**
 
 
-![MCRDE_plot](https://user-images.githubusercontent.com/51149957/155083185-aadf5b15-3709-44d8-81bb-5e69292f4dd2.jpg)
+![Figure_1](https://user-images.githubusercontent.com/51149957/155088721-e4bffccf-3acc-4a4b-b237-9da0ffc5f023.jpeg)
+
 
 	* 데이터의 길이(N): 1000
 	* x 축: Scale factor 
