@@ -1,18 +1,16 @@
-﻿
+
 # 파편화된 데이터의 적극 활용을 위한 시계열 기반 통합 플랫폼 기술 개발
-
-
 
 - 참여 기관명 : 광운대학교, 신경공학 및 인공지능 연구실(NeuroAI Lab)
 - 연구책임자 : 최영석 교수
+-
 - 개발자 정보
   - 김채민 연구원
   - Email : k9is@kw.ac.kr 
+
 - 참여 기관 실무 담당자 및 작성자 정보
   - 이현규 연구원
   - Email : skgusrb12@kw.ac.kr 
-
-
 
 ## 1. Introduction
 
@@ -47,8 +45,6 @@
 	- scale : 새로운 시계열 데이터 생성을 위한 데이터 추출 개수 
 	
 	
-
-
 ## 3. Usage
 
 ### `Main.py` 
@@ -122,22 +118,19 @@
 	 - scale: 스케일
 	 - pCHF_HT: CHF환자와 정상인 사이의 p value
 	
-	
-	
+		
 - **MCRDE 결과 그래프**
 
-![MCRDE_plot](https://user-images.githubusercontent.com/51149957/155083185-aadf5b15-3709-44d8-81bb-5e69292f4dd2.jpg)
 
+![MCRDE_plot](https://user-images.githubusercontent.com/51149957/155083185-aadf5b15-3709-44d8-81bb-5e69292f4dd2.jpg)
 
 	* 데이터의 길이(N): 1000
 	* x 축: Scale factor 
 	* y 축: Entropy Value 
+	
    * MCRDE의 평균: 점으로 표시
-
    * MCRDE의 표준편차: 에러바로 표시
-
-   *  에러바 위의 '*' 표시는 해당 되는 스케일에서 두 데이터(CHF, HEALTHY)가 서로 독립적이며 서로 다른 데이터라는 것을 의미함
-       
+   *  에러바 위의 * 표시는 해당 되는 스케일에서 두 데이터(CHF, HEALTHY)가 서로 독립적이며 서로 다른 데이터라는 것을 의미함
    *  MCRDE 그래프를 통해서, 스케일 1을 제외한 모든 스케일에서  CHF subjects와 HEALTHY subjects의 구분이 가능
        
     
