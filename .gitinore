@@ -1,4 +1,5 @@
 /.ipynb*
+.pyc
 .project
 .settings
 .pydevproject
