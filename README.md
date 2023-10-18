@@ -11,9 +11,7 @@
 
 - 참여 기관 실무 담당자 및 작성자 정보
   - 김대현 연구원
-  - Email : 
-  - 이현규 연구원
-  - Email : skgusrb12@kw.ac.kr 
+  - Email : dhkim1016@kw.ac.kr
 
 ## 1. Introduction
 
